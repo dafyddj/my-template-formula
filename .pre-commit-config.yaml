@@ -19,7 +19,7 @@ default_install_hook_types: [commit-msg, pre-commit]
 default_stages: [pre-commit]
 repos:
   - repo: https://github.com/dafyddj/commitlint-pre-commit-hook
-    rev: v2.3.0
+    rev: v19.8.1
     hooks:
       - id: commitlint
         name: Check commit message using commitlint
